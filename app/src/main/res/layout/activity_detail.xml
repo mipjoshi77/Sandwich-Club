@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.udacity.sandwichclub.DetailActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_iv"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_iv_layout_height"
+            android:layout_marginTop="@dimen/image_iv_layout_margin_top"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/sandwich_picture_content_description"
+            android:scaleType="centerCrop"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/origin_tv_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:paddingLeft="@dimen/origin_tv_label_padding_left"
+            android:text="@string/detail_place_of_origin_label"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_iv" />
+
+        <TextView
+            android:id="@+id/origin_tv_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/origin_tv_value_margin_left"
+            android:layout_marginStart="@dimen/origin_tv_value_margin_start"
+            android:layout_marginTop="@dimen/origin_tv_value_margin_top"
+            android:textSize="@dimen/tv_value_text_size"
+            android:textColor="@android:color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/origin_tv_label" />
+
+        <TextView
+            android:id="@+id/also_known_tv_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/also_known_tv_label_margin_top"
+            android:paddingLeft="@dimen/also_known_tv_label_padding_left"
+            android:text="@string/detail_also_known_as_label"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimaryDark"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/description_tv_value" />
+
+        <TextView
+            android:id="@+id/also_known_tv_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/also_known_tv_value_margin_top"
+            android:paddingLeft="@dimen/also_known_tv_value_padding_left"
+            android:textSize="@dimen/tv_value_text_size"
+            android:textColor="@android:color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/also_known_tv_label" />
+
+        <TextView
+            android:id="@+id/ingredients_tv_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/ingredients_tv_label_margin_top"
+            android:background="@color/colorPrimaryDark"
+            android:paddingLeft="@dimen/ingredients_tv_label_padding_left"
+            android:text="@string/detail_ingredients_label"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/also_known_tv_value" />
+
+        <TextView
+            android:id="@+id/ingredients_tv_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/ingredients_tv_value_margin_top"
+            android:paddingLeft="@dimen/ingredients_tv_value_padding_left"
+            android:textSize="@dimen/tv_value_text_size"
+            android:textColor="@android:color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ingredients_tv_label" />
+
+        <TextView
+            android:id="@+id/description_tv_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/description_tv_label_margin_top"
+            android:paddingLeft="@dimen/description_tv_label_padding_left"
+            android:text="@string/detail_description_label"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:background="@color/colorPrimaryDark"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/origin_tv_value" />
+
+        <TextView
+            android:id="@+id/description_tv_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/description_tv_value_margin_top"
+            android:paddingLeft="@dimen/description_tv_value_padding_left"
+            android:textSize="@dimen/tv_value_text_size"
+            android:textColor="@android:color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/description_tv_label" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

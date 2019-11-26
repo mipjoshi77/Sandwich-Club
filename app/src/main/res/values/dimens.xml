@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Detail Activity Dimensions-->
+    <dimen name="image_iv_layout_height">200dp</dimen>
+    <dimen name="image_iv_layout_margin_top">4dp</dimen>
+    <dimen name="origin_tv_label_padding_left">16dp</dimen>
+    <dimen name="origin_tv_value_margin_left">16dp</dimen>
+    <dimen name="origin_tv_value_margin_start">16dp</dimen>
+    <dimen name="origin_tv_value_margin_top">8dp</dimen>
+    <dimen name="also_known_tv_label_margin_top">8dp</dimen>
+    <dimen name="also_known_tv_label_padding_left">16dp</dimen>
+    <dimen name="also_known_tv_value_margin_top">8dp</dimen>
+    <dimen name="also_known_tv_value_padding_left">16dp</dimen>
+    <dimen name="ingredients_tv_label_margin_top">8dp</dimen>
+    <dimen name="ingredients_tv_label_padding_left">16dp</dimen>
+    <dimen name="ingredients_tv_value_margin_top">8dp</dimen>
+    <dimen name="ingredients_tv_value_padding_left">16dp</dimen>
+    <dimen name="description_tv_label_margin_top">8dp</dimen>
+    <dimen name="description_tv_label_padding_left">16dp</dimen>
+    <dimen name="description_tv_value_margin_top">8dp</dimen>
+    <dimen name="description_tv_value_padding_left">16dp</dimen>
+
+    <dimen name="tv_value_text_size">20sp</dimen>
+</resources>
