@@ -13,3 +13,6 @@ Building a layout and populating its fields from data received as JSON is a comm
 - Practice JSON parsing to a model object
 - Design an activity layout
 - Populate all fields in the layout accordingly
+
+### Snapshots ~
+<img src="app-snapshots/Screenshot_1.png" width=250>  <img src="app-snapshots/Screenshot_2.png" width=250>  <img src="app-snapshots/Screenshot_3.png" width=250>
